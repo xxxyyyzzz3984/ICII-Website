@@ -347,3 +347,9 @@ em {
 #blankline {
 	height:5px;
 }
+
+/* ============SLIDE IMAGE CUSTOMIZE========== */
+.mySlides {
+    height: 400px;
+    width: 100%;
+}
