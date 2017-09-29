@@ -3,6 +3,7 @@
 /* ========BASIC======== */
 html {
    overflow-y:scroll;
+    zoom: 200%;
 }
 
 body {
