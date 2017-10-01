@@ -2,8 +2,8 @@
 
 /* ========BASIC======== */
 html {
-   overflow-y:scroll;
-    zoom: 200%;
+    overflow-y:scroll;
+    zoom: 170%;
 }
 
 body {
@@ -154,9 +154,8 @@ em {
 
 /* ========HEADER CUSTOMIZE======== */
 #header h1 {
-    vertical-align: middle;
     font-weight:bold;
-    font-size:30px;
+    font-size:24px;
     color:#FFF;
     display: inline;
 }
