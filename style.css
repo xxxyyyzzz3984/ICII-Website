@@ -171,6 +171,12 @@ em {
     vertical-align: middle;
 }
 
+#important {
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+}
+
 /* ========MENU CUSTOMIZE======== */
 #menu ul {
    list-style:none;
