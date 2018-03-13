@@ -22,22 +22,19 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-        <style>
-		div.transbox {
-		  margin: 0px;
-		  background-color: #FFFF00;
-		  border: 2px solid black;
-		  opacity: 0.7;
-		  filter: alpha(opacity=60); /* For IE8 and earlier */
-		}
-
-		div.transbox p {
-		  margin: 1%;
-		  font-weight: bold;
-		  color: #000000;
-		}
-        </style>
 	</head>
+<style>
+@media screen and (max-width: 500px){
+  .speaker1 { width: 100px; }
+  .speaker2 { width: 100px; }
+  .speaker3 { width: 100px; }
+}
+@media screen and (min-width: 500px) {
+   .speaker1 { width: 200px; }
+   .speaker2 { width: 200px; }
+   .speaker3 { width: 200px; }
+}
+</style>
 	<body>
 
 	<!-- Header -->
@@ -56,7 +53,7 @@
 						</ul>
 					</nav>
 			</div>
-
+			
 	<!-- Main -->
 		<div id="main">
 			<div class="container">
@@ -67,52 +64,25 @@
 							<section>
 								<p><a href="#" class="image full"><img src="images/banner.png" alt=""></a></p>
 								<header>
-									<h2>ICII 2018</h2>
-						<span>International Conference on Industrial Internet</span>
+									<h2>Keynote</h2>
 								</header>
 
-				</section>
-
-		<section>
-	  	    <h2 style="color:red;">Announcements:</h2>
-			<ul style="list-style-type:disc;padding-left:20px">
-                                <li>01/01/18: &emsp;Submission deadlines:&emsp; regular papers due: <font color="red">April 30, 2018</font>; posters/demos due: <font color="red">July 30, 2018</font>
- </li>
-                                <li>01/01/18: &emsp;<a href="key.html">Keynote speaker</a>:&emsp; Dr. Vinton G. Cerf &emsp;(Vice President and Chief Internet Evangelist, Google). </li>
-                                <li>01/01/18: &emsp;Website has been created.</li>
-			</ul>
-
-		</section>
-
-
-
-<p>
-Industrial Internet is ushering in a new wave of industrial revolution through the integration of networks, computing, industrial equipment and people. Industrial Internet creates new ways to connect sensors and actuators embedded in machines to the Internet. The large amounts of data generated from sensors are analyzed to further understand the operation and condition of machines and industrial systems, and even enable autonomous operation and control of the entire systems. Industrial Internet will impact a broad industrial spectrum including manufacturing, aviation, transportation, power, oil and gas, healthcare, smart cities, and buildings.
+<p id="keynote1">
+<img src="images/Cerf.jpg" class="speaker1" alt="" align="left" style="padding:0px 15px 0px 0px;">
+<b>Keynote speaker:</b> Dr. Vinton G. Cerf &emsp; (Vice President and Chief Internet Evangelist, Google)<br>
 </p>
+<br>
+<br>
+<br>
 
-<p>
-The first International Conference on Industrial Internet (ICII) is a premier international conference that covers all aspects of Industrial Internet. Topics of interested include, but not limited to:
-</p>
-
-<p>
-* Industrial Internet of Things<br>
-* Industrial Cyber-Physical Systems<br>
-* Industrial Big Data<br>
-* Industrial Communication and Networking Technologies<br>
-* Robotics and Autonomous Systems<br>
-* Data Management and Analytics<br>
-* Security, Privacy, and Trust<br>
-* Real-Time, Reliability, and Safety<br>
-* Applications, Testbeds and Case Studies<br>
-</p>
 
 
 							</section>
 						</div>
 					<!-- /Content -->
-
+						
 				</div>
-
+			
 			</div>
 		</div>
 	<!-- Main -->
@@ -124,7 +94,7 @@ The first International Conference on Industrial Internet (ICII) is a premier in
 		<div id="copyright">
 			<div class="container">
          &copy; 2018 International Conference on Industrial Internet (ICII 2018). All rights reserved.<br>
-				Web Design: <a href="http://templated.co">TEMPLATED</a>
+				Design: <a href="http://templated.co">TEMPLATED</a>
 			</div>
 		</div>
 
