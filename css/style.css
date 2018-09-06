@@ -352,6 +352,21 @@
     width: 50%;
 }
 
+/* set background color of the top banner */
+.container #nav ul {
+	background: #d6d9db;
+}
+
+/* set color of the top banner text*/
+.container #nav ul li a{
+	color: #000;
+}
+
+.container #nav ul .active a{
+	color: #FFF;
+}
+
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
